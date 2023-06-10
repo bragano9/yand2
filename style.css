@@ -1,0 +1,87 @@
+body{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: larger;
+    margin-right: 16px;
+}
+
+ul{
+    display: flex;
+    gap: 32px;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+.search-container {
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    background-image: url(images/landscape.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /*background-size:contain */
+    justify-content: center;
+    align-items: center;
+    filter:saturate(4);
+    
+}
+
+.tag {
+    color: white;
+    margin-bottom: 20px;
+}
+
+.search-input{
+    width: 30em;
+    height: 2em;
+    opacity: .8;
+    border-radius: 3;
+}
+
+
+.explore-grid{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.triphead{
+    margin: 32px;
+
+}
+
+.poptrips{
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+justify-content: center;
+gap: 12px;
+
+}
+
+.trip{
+    border: 2px solid black;
+    height: 250px;
+    width: 300px;
+}
+
+a, button{
+    cursor: pointer;
+}
+
+footer{
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-top: 64px;
+}
